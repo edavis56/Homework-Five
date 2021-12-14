@@ -10,7 +10,7 @@ var four = $("#4PM");
 var five = $("#5PM");
 var six = $("#6PM");
 
-var Input;
+var input;
 var hour;
 
 function init() {
@@ -48,14 +48,14 @@ function init() {
     eight.val(initNine);
 }
 
-$(".saveBtn").on("click", function(){
-   Input = $(this).siblings(".form-control").val();
-   hour = $(this).siblings(".input-group-prepend").text();
-   localStorage.setItem(hour, JSON.stringify(Input)); 
-   console.log(Input);
 
-   $(document).ready(function(){
-    initPage()
+$(document).ready(function(){
+    init()
+
+$(".saveBtn").on("click", function(){
+   input = $(this).siblings(".form-control").val();
+   hour = $(this).siblings(".input-group-prepend").text();
+   localStorage.setItem(hour, JSON.stringify(input));
+})
 
 }
-
