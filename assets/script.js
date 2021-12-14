@@ -14,38 +14,38 @@ var input;
 var hour;
 
 function init() {
-    let initNine = JSON.parse(localStorage.getItem("08:00 AM"));
-    eight.val(initNine);
+    let initEight = JSON.parse(localStorage.getItem("08:00 AM"));
+    eight.val(initEight);
 
     let initNine = JSON.parse(localStorage.getItem("09:00 AM"));
     nine.val(initNine);
 
-    let initNine = JSON.parse(localStorage.getItem("10:00 AM"));
-    ten.val(initNine);
+    let initTen = JSON.parse(localStorage.getItem("10:00 AM"));
+    ten.val(initTen);
 
-    let initNine = JSON.parse(localStorage.getItem("11:00 AM"));
-    eleven.val(initNine);
+    let initEleven = JSON.parse(localStorage.getItem("11:00 AM"));
+    eleven.val(initEleven);
 
-    let initNine = JSON.parse(localStorage.getItem("12:00 PM"));
-    noon.val(initNine);
+    let initNoon = JSON.parse(localStorage.getItem("12:00 PM"));
+    noon.val(initNoon);
 
-    let initNine = JSON.parse(localStorage.getItem("01:00 PM"));
-    one.val(initNine);
+    let initOne = JSON.parse(localStorage.getItem("01:00 PM"));
+    one.val(initOne);
 
-    let initNine = JSON.parse(localStorage.getItem("02:00 PM"));
-    two.val(initNine);
+    let initTwo = JSON.parse(localStorage.getItem("02:00 PM"));
+    two.val(initTwo);
 
-    let initNine = JSON.parse(localStorage.getItem("03:00 PM"));
-    three.val(initNine);
+    let initThree = JSON.parse(localStorage.getItem("03:00 PM"));
+    three.val(initThree);
 
-    let initNine = JSON.parse(localStorage.getItem("04:00 PM"));
-    four.val(initNine);
+    let initFour = JSON.parse(localStorage.getItem("04:00 PM"));
+    four.val(initFour);
 
-    let initNine = JSON.parse(localStorage.getItem("05:00 PM"));
-    five.val(initNine);
+    let initFive = JSON.parse(localStorage.getItem("05:00 PM"));
+    five.val(initNinitFiveine);
 
-    let initNine = JSON.parse(localStorage.getItem("06:00 PM"));
-    six.val(initNine);
+    let initSix = JSON.parse(localStorage.getItem("06:00 PM"));
+    six.val(initSix);
 }
 
 
