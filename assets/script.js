@@ -11,6 +11,7 @@ var five = $("#5PM");
 var six = $("#6PM");
 
 var Input;
+var hour;
 
 function init() {
     let initNine = JSON.parse(localStorage.getItem("08:00 AM"));
@@ -48,6 +49,13 @@ function init() {
 }
 
 $(".saveBtn").on("click", function(){
-   Input = $(this).siblings(".") 
+   Input = $(this).siblings(".form-control").val();
+   hour = $(this).siblings(".input-group-prepend").text();
+   localStorage.setItem(hour, JSON.stringify(Input)); 
    console.log(Input);
+
+   $(document).ready(function(){
+    initPage()
+
 }
+
