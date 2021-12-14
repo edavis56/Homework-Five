@@ -18,34 +18,34 @@ function init() {
     eight.val(initNine);
 
     let initNine = JSON.parse(localStorage.getItem("09:00 AM"));
-    eight.val(initNine);
+    nine.val(initNine);
 
     let initNine = JSON.parse(localStorage.getItem("10:00 AM"));
-    eight.val(initNine);
+    ten.val(initNine);
 
     let initNine = JSON.parse(localStorage.getItem("11:00 AM"));
-    eight.val(initNine);
+    eleven.val(initNine);
 
     let initNine = JSON.parse(localStorage.getItem("12:00 PM"));
-    eight.val(initNine);
+    noon.val(initNine);
 
     let initNine = JSON.parse(localStorage.getItem("01:00 PM"));
-    eight.val(initNine);
+    one.val(initNine);
 
     let initNine = JSON.parse(localStorage.getItem("02:00 PM"));
-    eight.val(initNine);
+    two.val(initNine);
 
     let initNine = JSON.parse(localStorage.getItem("03:00 PM"));
-    eight.val(initNine);
+    three.val(initNine);
 
     let initNine = JSON.parse(localStorage.getItem("04:00 PM"));
-    eight.val(initNine);
+    four.val(initNine);
 
     let initNine = JSON.parse(localStorage.getItem("05:00 PM"));
-    eight.val(initNine);
+    five.val(initNine);
 
     let initNine = JSON.parse(localStorage.getItem("06:00 PM"));
-    eight.val(initNine);
+    six.val(initNine);
 }
 
 
